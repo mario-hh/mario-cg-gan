@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "cg-gan"
+version = "0.1.0"
+description = ""
+authors = ["None"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.7,<3.10"
+scipy = "1.7.0"
+dominate = "2.6.0"
+six = "1.16.0"
+opencv-python = "4.5.3.56"
+lpips = "0.1.3"
+scikit-image = "0.18.2"
+torch = "1.12.1"
+torchvision = "0.13.1"
+lmdb = "1.2.1"
+tqdm = "4.61.2"
+visdom = "0.1.8.9"
+pillow = "8.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
